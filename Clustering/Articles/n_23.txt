@@ -1,0 +1,58 @@
+
+Use Neural Networks to Find the Best Words to Title Your eBook
+Introduction
+
+The eBook business is thriving. The likes of Amazon Kindle, Apple iBookstore, and Google eBookstore all provide a robust variety of channels by which to publish any eBook on any subject you could think of.  Amazon generates an average of 1.07MM in eBook paid sales volume, which translates to about $5.8MM in revenue, every day.
+
+A huge community of eBook followers exist due to its proven model to generate passive income for good writers. There are many great writers out there, but why is it sometimes difficult to generate the expected revenue in the market? The key to real success for capable, passionate writers is preparation and research. You have to know the market and current trends.
+
+
+
+Maximizing Potential
+
+It is not enough for writers come up with a topic they are interested in, start drafting and writing what they feel most passionate about, get published, then sit back and reap the benefits of their efforts. There are many websites that offer advice and recommendations on how to get into the eBook publishing business, but it boils down to good old fashioned market research and audience targeting to drive attention and trigger those sales.
+
+Many tools and utilities are available to aid writers research their subjects of choice and understand keyword search volume. They also reveal how much competition exists for those subject areas you're writing about, and what the reading public is clamoring for. At what price point are customers willing to pay for the eBook?
+
+When you think about the purchasing behavior of eBook readers, they would normally go to their favorite eBook stores, type in the relevant keywords, and start browsing through the hundreds, if not thousands of eBooks out there. If your eBook does not appear in the first or second page of the most relevant search results, your chances of being noticed are slim. Consumers will always try to go for the most relevant, most interesting, most popular, most highly rated, most favorably reviewed, and most inexpensive eBook with the best value they get their hands on. Sounds daunting right?
+
+The eBook market is saturated with all the popular topics, so one needs to be more creative in their approach on the entire eBook publishing process. Do not start writing a word until an understanding of how the market will react is clearly achieved.
+
+
+There is an interesting market psychology that drives the eBook market. The savviest writers are great marketers first, excellent wordsmiths second. If one's intent is to purely follow their passion and write something they truly care about with the prospect of generating income as a second thought, then no amount of market research will convince the author to sway from his or her prime directive. However, if you're like most people, you would want to not only write something you really care about, but also try to maximize the potential of earning passive income while you're doing it. And why not? This mindset has been prevalent especially in this generation as more Baby Boomers are in or close to their retirement periods. Many feel compelled to follow their passion more, and at the same time find ways to supplement their retirement income. Writing and publishing eBooks has been one of these passive income generators that a lot of people vie for, but sadly, not many succeed.
+
+
+
+
+There's so much potential of passive income generation that eBooks offer that there are many models built around the business of eBooks itself. Websites and courses exist to teach, mentor, and guide eBook writers to how to go about the business of honing and excelling in the craft of research, marketing and writing rolled into one.
+
+The most successful ones make it a point to create and publish eBooks once every two to three months. These savvy publishers go for volume, so it becomes a numbers game (to an extent). But it's not done blindly to crank out these eBooks. The electronic format and plethora of delivery channels make it really convenient and efficient to produce and publish eBooks at an unheard of rate that traditional book publishers have never seen before. So it boils down to research and more research.
+
+So where does one start? Right out of the gate.
+
+
+When potential readers are hunting for the best eBook, there are cues that can be managed effectively to maximize their attention and garner a rise on a potential sale. Once search results are displayed, the book's title and cover are the little-known doorways to grabbing the reader's attention. Book design covers are there to speak visually to the consumer, the eBook title (and subtitle) are there to compete among the thousands of keywords and appeal and attract to the consumer mental and emotional state.
+
+Let's focus on the how to choose a title for an eBook to increase the likelihood of being more visible, and appeal to the most anticipated result. We will focus on three main objectives: how to find the top words to title a Kindle eBook, and how to find the most similar words related to the subject. We will also have a discussion on how to use and combine two technical approaches to fulfill our objectives.
+
+Titles and headlines change the way we think. What you read affects what you see, and what grabs your attention changes the way you feel. The hook, line, and sinker exist in all forms of media. Part of advertising agencies' expertise is coming up with all these catch phrases and headline grabbers. From news pieces, articles, blogs, news, printed and electronic books, to movies, marquees, and advertisements. These are just a sample of how titling can make a difference.
+
+Word Counts and the Doc2Vec Neural Network
+
+
+
+I targeted the Amazon Kindle site as the source for gathering information to do an in depth analysis on eBook inventory listing, ratings, reviews, and pricing. Code was written to dynamically web-scrape and scour the entire result set based on the key word search. From there, a process was developed to tokenize and clean up the titles into group of words which are categorized and counted to the proper rating for that specific eBook title. A total weighted score is calculated by getting the summation of the product of the rating score multiplied by the word count.
+
+A second and complementary approach using Doc2Vec was used to analyze the entire eBook title listing. Doc2Vec was built based on the Word2Vec approach towards documents. The objective is to convert whole documents or in this case, bodies of text based on eBook titles into a digital representation in a multidimensional vector space. What that means is that any title can be represented as a vector point in a multidimensional space. This point on its own does not offer any value, but when a cluster of these points are created, a pattern starts to emerge and relationships between the words start to form. The magic and power of Doc2Vec is its ability to mathematically create context out of words, and inversely, also produce words given its context.
+
+Doc2vec is based on a very thin two-layer neural network. Doc2Vec learns representations for words and labels simultaneously. It operates in a purely unsupervised mode and needs no labels other than an arbitrary unique ID per text example. You train it to find similar (using cosine similarity) words in context of each other based on the frequency of co-occurrences of words that are near each other. You can even pass entirely new text to the trained model and it can infer a compatible vector, and find the best and most similar words most likely to appear in context.
+
+The approach is to create the weighted word frequency count to get the most relevant words from Amazon Kindle site and intersect that set of word list with the result from the Doc2Vec neural network result set. The intersected result set then uses the relevancy score from Amazon Kindle site to sort and produce the highly recommended list of words to use to form an eBook title that could increase the likelihood of being noticed and getting the sale. This serves two purposes. One, it ensures that the list relevancy remains high due to its consistent use of the Amazon Kindle inherent scoring mechanism. Second, the Doc2Vec neural network output of the most similar words that it learned from the entire title listings from Amazon Kindle produces possibly related search words. Utilizing these words will fortify the likelihood that the eBook title will appear on the first two to three pages of Amazon's search results.
+
+
+
+
+The initial process is all about the scraping strategy and approach. Python was the language and the BeautifulSoup library took care of the web-scraping. A fully object oriented approach was also implemented so that full modularity, reuse, componentization, and abstraction was achieved. The ReviewCorpus class did pre-processing on incoming titles. This class are four methods.
+
+This class method removes the higher order non ascii characters. It is fairly normal at times to get these characters and it detracts from accurately processing text for a higher dimensionalized vector space.
+

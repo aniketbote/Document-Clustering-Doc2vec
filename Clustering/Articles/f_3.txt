@@ -1,0 +1,34 @@
+
+
+Financial Transactions & the Growing Role of Technology
+The world is evolving! Financial transactions are increasing! Money value is growing multi-fold!
+
+Yes, in today's world, there are huge number of financial transactions taking place everyday. There are so many players in the market that its difficult to manage them. This is where Finance and Technology come together. Problems faced by finance are solved by technology and growth of technology is managed by finance. Thus, there is symbiotic growth of both finance and technology.
+
+One's growth leads to and is dependent on other's growth. It won’t be wrong to say that without the growth of technology, growth of finance would have been what it is today and vice versa.
+
+
+
+ 
+
+From a very zoomed out view, this looks like a fantasy story and something which must have had a very smooth journey. But no! A lot of hard work goes into creating an IT system that can replicate what was manual earlier. The most critical aspect is that very high level of accuracy is achieved and all the manual interventions are removed when the technology comes in. And that is not very easy to achieve. Whenever an existing procedure or process is automated, a lot of effort goes into explaining the financial process to the IT guy. The IT guy then understands it, writes a program or modifies an existing software according to what is required and then gives it to the finance guy. If the finance guy is happy with what he has got, he starts using it and hopes that overall efficiency increases.
+
+ 
+
+But sometimes, there are certain aspects that are missed during the above process and it takes the finance guy sometime to realize that. The reason for realization can be either some wrong calculations, customer complaints, anomaly in output or even a fraud. The consequences of such misses can be small to huge and can sometimes cause huge losses to the organization. Such has been the case recently where a big bank was victim due to lack of integration of two IT systems.
+
+ 
+
+Finance is such field wherein there is very little margin for anomaly. Small errors or calculations can lead to huge losses. Another example can be while using the IT system, the Finance guy enters erroneous values like currency rate. If the currency rate for 100 Million USD with INR was 64 and by mistake the person enters 46, you can imagine the losses that can occur. Another example can be sharing of passwords amongst colleagues which is also a common practice in places where people are not aware of the hazards of such acts.
+
+ 
+
+There is no doubt that technology has made it easier to perform financial transactions. With the click of a button, the easy of doing banking transactions via laptops or mobile phones has increased efficiency. But one has to be extremely careful as well as sometime these systems can also be susceptible. Banks and financial institutions hence invest a lot in data protect, privacy and constant upgrade their systems for better security of the customer’s wealth.
+
+ 
+
+Thus, it is safe to assume that IT does brings in efficiency in finance world but, finance world needs to bring in IT that is fully accurate and then use it with its best judgement and skill otherwise the consequences can be unsurmountable and catastrophic.
+
+
+
+

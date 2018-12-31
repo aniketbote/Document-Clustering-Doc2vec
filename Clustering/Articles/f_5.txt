@@ -1,0 +1,45 @@
+
+
+
+Decoding GST in India- Merits & Demerits
+The implementation of the Goods and Services Tax (GST) has been seen as a revolutionary reform of the taxation system in India. The GST is a comprehensive and destination-based consumption tax levied at multiple stages of value addition in the supply chain of the products and services. It came into effect from 1st July, 2017 and aims to enforce a unified taxation system in the country. The two key advantages associated with GST are the reduction in the cascading effect of the taxes and the plausible reduction in the taxes through the provision of input tax credit. The ‘Cascading effect of Taxes’ is the scenario of sequential increase in the price of a commodity due to the payment of tax on tax at each stage of product life cycle.
+
+It is however essential to understand three crucial concepts to gain a comprehensive understanding of the GST. These concepts are essentially provisions provided in the GST and include the Place, Time and the Value of the supplied goods or services. These concepts are aimed at inducing more competition in the export industry, together with the provision of protecting the domestic goods industry. This article provides a description of the key aspects of GST together with the implications of GST for the some of the major sectors in India.
+
+
+
+ 
+
+Time, Place and Value of Supply
+
+There are provisions specified in GST regarding the ‘point of taxation’ for the realization of the tax-rate, value and time of payment of the taxes. There are different clauses for the supply of goods and rendering of services. The time of supply is taken to be earlier of the date of the issue of invoice and the date on which the payment is actually received. There is also clause for the time of supply under ‘Reverse Charge’. The place of supply enables the determination of the chargeability of the tax in terms of State-GST (SGST), Central-GST (CGST) and Integrated-GST (IGST). The tax is leveraged based on the location of supplier and the corresponding place of supply.
+
+The GST will be charged on the ‘transaction value’ or the actual price paid or payable for the goods or services. This includes all charges or cost incurred until the managerial control is completely transferred. The discounts given prior or at the time of supply, however, will be deduced from the transaction value. In case of transaction between related entities, the value of supply would be either the Open Market Value (OMV) or determined through Residual or Cost Value Method for items of similar nature. There are different provisions for determination, such as, valuation based on 110% of the cost of manufacturing or provision of supply, number of men-hours required, etc. There are however different guidelines for businesses involved in the exchange of foreign currencies, air travel, and life-insurance business.
+
+ 
+
+Composition Levy
+
+The Composition Scheme mandates the tax return filing on a quarterly basis, instead of the business compliance pertaining to three monthly returns. This is primarily in purview of the limited resources and expertise of the Micro, Small and Medium Enterprises (MSMEs) and the start-ups, with aggregate turnover below INR 75 lakhs. This is however applicable for the manufacturing sector and the service sector is excluded for it. The composition scheme allows for high liquidity, limited tax liability and limited compliance. There are lower tax rate slabs available under the scheme and detailed record keeping is not required for the business. The composition business however cannot avail input tax credit of GST and inter-state transactions are not permitted.
+
+ 
+
+Input Tax Credit (ITC) and Reverse Charge
+
+The provision of ITC is one of the fundamental features of GST and is concerned with the adjustment of tax on purchase against the liability of tax on the output. ITC could be claimed only for purchases pertaining for the purpose of business and not for personal use. There is also no ITC allowed if the depreciation has been claimed on the capital goods for tax purpose.
+
+The reverse charge mechanism is concerned with the reversal of the tax payment liability from the supplier to the buyer. It is aimed at increasing tax revenues and compliance by the inclusion of the unorganized sector. It is applicable for both service and manufacturing sector. The compensation cess and ITC are applicable for the taxes paid on the reverse charge.
+
+ 
+
+Impact of GST
+
+The manufacturing sector is expected to gain significantly through the implementation of GST, in terms of reduced tax rates and provision of input tax credit. This will lead to lower prices of customer products. GST implementation ought to convey help to the E-Commerce business players as the E-Commerce plan of action has developed from the conventional ‘inventory-led model’ to 'unadulterated or services model’. The implementation of GST will also lead to service tax increase from 15% to 18% for digital marketing companies and includes charges depending upon the base state of the client. The companies could recover from the clients by increasing the prices or adjust through lowered production.
+
+ 
+
+Conclusion
+
+The success of GST depends largely on its adaptation by the businesses and the concerned change of business behaviour by the nation. It is expected to provide a strong impetus of growth for the different sectors of the economy and would ensure seamless flow of input in the economy.
+
+

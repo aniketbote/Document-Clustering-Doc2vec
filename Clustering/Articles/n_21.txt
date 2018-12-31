@@ -1,0 +1,18 @@
+
+
+Understanding Neural Networks with TensorFlow Playground
+
+You may have heard the buzz about neural networks and deep learning, and want to learn more. But when you learn about the technology from a textbook, many people find themselves overwhelmed by mathematical models and formulas. I certainly was.
+
+For people like me, there's an awesome tool to help you grasp the idea of neural networks without any hard math: TensorFlow Playground, a web app written in JavaScript that lets you play with a real neural network running in your browser and click buttons and tweak parameters to see how it works.
+
+
+
+TensorFlow Playground
+
+In this article, I'd like to show how you can play with TensorFlow Playground so that you can understand the core ideas behind neural networks. Then you can understand why people have become so excited by the technology as of late.
+
+Let the computer solve the problem
+Computer programming requires a programmer. Humans instruct a computer to solve a problem by specifying each and every step through many lines of code. But with machine learning and neural networks, you can let the computer try to solve the problem itself. A neural network is a function that learns the expected output for a given input from training datasets.
+
+

@@ -1,0 +1,69 @@
+
+
+Do Lefties Have an Advantage in Sports? It Depends
+Martina Navratilova, the 18-time Grand Slam tennis champion, at the U.S. Open in 1991. A new study suggests that left-handers have an advantage in sports, like tennis and baseball, where an opponent’s time to react is limited.
+Violins, cameras, school desks, computer mouses, can openers — these are just a few items that demonstrate how routinely disadvantaged left-handers are in this world.
+
+One notable exception may be sports. Whether it’s Lou Gehrig in baseball, Wayne Gretzky in ice hockey, Martina Navratilova in tennis or Oscar De La Hoya in boxing, some of the best athletes in history have been portsiders.
+
+But even in this realm, the southpaw advantage may vary, being more pronounced in sports where a player has less time to react to an opponent, like table tennis, according to Florian Loffing, a sports scientist at the University of Oldenburg in Germany and author of a study published Wednesday in Biology Letters. In such games, he found a higher proportion of lefties than in those with longer intervals between players’ actions.
+
+Including an analysis of the pressures of time shows “that there is an additional effect” in left-sider sports dynamics, said Kirsten Legerlotz, a professor of sport sciences at the Humboldt University of Berlin who was not involved in the research. Dr. Loffing’s “conclusion appears convincing,” she added, although it would need to be examined in other sports and verified with lab experiments.
+
+Dr. Loffing chose to analyze baseball, cricket, table tennis, badminton, tennis and squash, because they lent themselves to a standardized measure of time pressure, he said. For baseball and cricket, this involved the average time that elapsed between ball release and bat-ball contact in professional games. For the racket sports, he considered the intervals between racket-ball contact made by players in professional matches. He then tallied the number of lefties among each sport’s top 100 players, or pitchers and bowlers in the case of baseball and cricket, from 2009 to 2014.
+
+Comparing all six sports against one another, he found the proportion of southpaws increased as the time available for players to act decreased. Nine percent of the top players were left-dominant in the slowest contest, squash, while 30 percent of the best pitchers were lefties in the fastest, baseball. Over all, left-handedness was 2.6 times more likely in the sports with higher time constraints (baseball, cricket and table tennis) than in ones with lower time pressure (badminton, tennis and squash).
+
+His results are couched in a broader “nature” versus “nurture” discussion of why left-dominance may be an asset in sports.
+
+The “nature” hypothesis posits that left-handers may innately be better athletes, perhaps benefiting, for instance, from the fact that the right brain hemisphere is in charge of both their dominant hand and visual-spatial awareness.
+
+The “nurture” explanation suggests that left-handers’ relative rarity gives them a competitive edge because opponents are worse at anticipating their movements or are even used to employing strategies that play directly to lefties’ strengths (hitting balls toward the right in racket sports, for instance).
+
+This “nurture” idea is supported by studies that have found a higher incidence of left-handers in professional interactive sports compared with the general population, but not in non-interactive ones like darts, bowling or golf.
+
+Beyond sports, this explanation could account for why lefties have made up just 10 percent or so of the human population for thousands of years.
+
+“From a Darwinian perspective, there seems to be something wrong with being left-handed,” Dr. Loffing said. “But the question is, why doesn’t it wash out? Why isn’t the world only right-handed?”
+
+In 1996, a team of French researchers proposed that lefties have a fitness advantage in duel-like situations. The same group showed that more violent and warlike traditional societies have a much higher incidence of left-handers than more pacifist societies.
+
+Dr. Loffing believes most of the lefties-in-sports trend can be explained by this so-called fighting hypothesis. His latest research suggests that the benefits portsiders derive from the element of unfamiliarity become greater when their opponents have less time to calculate. “We know that things like anticipation and decision-making are more difficult under time pressure,” he said.
+
+In previous studies, Dr. Loffing and collaborators have shown that athletes can counter or even neutralize the left-sider advantage through training. Next, it would be interesting to combine these two findings and see if there is some time pressure threshold beyond which it would be exceedingly difficult for players to train against the southpaw edge — some threshold “beyond which being rare really pays off,” he said.
+
+
+
+********
+
+
+Neural network or artificial neural network is one of the frequently used buzzwords in analytics these days. Neural network is a machine learning technique which enables a computer to learn from the observational data. Neural network in computing is inspired by the way biological nervous system process information.
+
+Biological neural networks consist of interconnected neurons with dendrites that receive inputs. Based on these inputs, they produce an output through an axon to another neuron.
+
+
+
+The term “neural network” is derived from the work of a neuroscientist, Warren S. McCulloch and Walter Pitts, a logician, who developed the first conceptual model of an artificial neural network. In their work, they describe the concept of a neuron, a single cell living in a network of cells that receives inputs, processes those inputs, and generates an output.
+
+In the computing world, neural networks are organized on layers made up of interconnected nodes which contain an activation function. These patterns are presented to the network through the input layer which further communicates it to one or more hidden layers. The hidden layers perform all the processing and pass the outcome to the output layer. 
+
+
+
+Neural networks are typically used to derive meaning from complex and non-linear data, detect and extract patterns which cannot be noticed by the human brain. Here are some of the standard applications of neural network used these days.
+
+Pattern/ Image or object recognition
+Times series forecasting/ Classification
+Signal processing
+In self-driving cars to manage control
+Anomaly detection
+These applications fall into different types of neural networks such as convolutional neural network, recurrent neural networks, and feed-forward neural networks. The first one is more used in image recognition as it uses a mathematical process known as convolution to analyze images in non-literal ways.
+
+Let’s understand neural network in R with a dataset. The dataset consists of 724 observations and 7 variables.
+
+“Companies.Changed” , “Experience.Score”, “Test.Score”, “Interview.Score”, “Qualification.Index”, “age”, “Status”
+
+The following codes runs the network classifying ‘Status’ as a function of several independent varaibles. Status refers to recruitment with two variables: Selected and Rejected. To go ahead, we first need to install “neuralnet” package
+
+
+
+
